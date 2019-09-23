@@ -1,17 +1,20 @@
 import React from 'react';
-import Salong from '../salong/salong'
+
+import SalongListObject from '../salongList/salongListObject'
 let salongList = (props) =>{
-    let salonger = [...props.props];
+    let salonger = [...props.props.salongData];
     return(
-    <div>
-        
-        {salonger.map(element => {
+ 
+        <div>
             
-           return <Salong key={element.id} props={element}/>
-        })
-        }
-        
-    </div>
+            {salonger.map(element => {
+                
+            return <SalongListObject key={element.id} props={element}/>
+            })
+            }
+            
+        </div>
+ 
     );
 }
 export default salongList;
