@@ -2,8 +2,7 @@
     {
         "id":1,
         "name": "Stavros klipp klipp",
-        "priceLow": 150,
-        "priceHigh": 350,
+        "price": "150-250",
         "adress": "Rådmansgatan",
         "open": "12.00"
 
@@ -11,8 +10,7 @@
     ,{
         "id":2,
         "name": "Klipp & Klapp",
-        "priceLow": 250,
-        "priceHigh": 400,
+        "price": "250-350",
         "adress": "Rådmansgatan",
         "open": "12.00"
 
@@ -20,8 +18,7 @@
     ,{
         "id":3,
         "name": "Sax Max",
-        "priceLow": 150,
-        "priceHigh": 350,
+        "price": "150-250",
         "adress": "Rådmansgatan",
         "open": "12.00"
 
@@ -29,8 +26,7 @@
     ,{
         "id":4,
         "name": "Topp knopp",
-        "priceLow": 250,
-        "priceHigh": 400,
+        "price": "350-450",
         "adress": "Rådmansgatan",
         "open": "12.00"
 
@@ -38,8 +34,7 @@
     ,{
         "id":5,
         "name": "KlippAnns Salong",
-        "prisLow": 150,
-        "priceHigh": 350,
+        "price": "150-250",
         "adress": "Rådmansgatan",
         "open": "12.00"
 

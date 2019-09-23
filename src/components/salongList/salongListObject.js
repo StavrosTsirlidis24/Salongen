@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 let salongListObject = (props) =>{
     let data = props.props;
     return(
-            
             <div>
                 <Link to={"/" + data.id}>
                     <h1>{data.name}</h1> 
@@ -12,8 +11,6 @@ let salongListObject = (props) =>{
                     <h3>{data.priceLow +"-"+ data.priceHigh}</h3>  
                 </Link>
             </div>
-           
-        
     );
 }
 
