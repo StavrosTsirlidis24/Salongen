@@ -1,6 +1,6 @@
 import Styled from 'styled-components';
 import SelectArrow from '../../material/selectArrow.png';
-// import Font from '../../font/FontBureau-MillerBannerLight.otf';
+import Font from '../../font/FontBureau-MillerBannerLight.otf';
 
 
 export const container = Styled.div `
@@ -10,13 +10,13 @@ background-color:white;
 display:flex;
 flex-direction:column;
 font-family: 'Roboto', sans-serif;
-
-
-`
-/* @font-face{
+@font-face{
   font-family:'MyWebFont';
   src: url(${Font});
-} */
+} 
+
+`
+
 
 export const header = Styled.div `
 height:25vh;
@@ -26,8 +26,7 @@ display:flex;
 flex-direction:column;
 position: sticky;
 top:0px;
-/* font-family: 'MyWebFont'; */
-font-family: 'Playfair Display', serif;
+font-family: 'MyWebFont';
 `
 
 export const topHeader = Styled.div `
