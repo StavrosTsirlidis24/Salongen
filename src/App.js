@@ -4,7 +4,7 @@ import SalongList from './components/salongList/salongList';
 import SalongPage from './components/salong/salongPage';
 import SalongData from './data/salongData.json';
 
-import './App.css';
+
 
 class App extends Component {
   state = {

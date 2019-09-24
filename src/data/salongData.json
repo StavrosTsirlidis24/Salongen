@@ -3,40 +3,54 @@
         "id":1,
         "name": "Stavros klipp klipp",
         "price": "150-250",
-        "adress": "Rådmansgatan",
-        "open": "12.00"
+        "adress": "Rådmansgatan 50, 113 57 Stockholm",
+        "open": "12.00",
+        "close": "17.00",
+        "phone": "07545664455",
+        "webadress": "www.stavrosklippklipp.se"
 
     }
     ,{
         "id":2,
         "name": "Klipp & Klapp",
         "price": "250-350",
-        "adress": "Rådmansgatan",
-        "open": "12.00"
-
+        "adress": "Rådmansgatan 49, 113 57 Stockholm",
+        "open": "12.00",
+        "close": "16.00",
+        "phone": "0723496455",
+        "webadress": "www.klippklapp.se"
     }
     ,{
         "id":3,
         "name": "Sax Max",
         "price": "150-250",
-        "adress": "Rådmansgatan",
-        "open": "12.00"
+        "adress": "Rådmansgatan 48, 113 57 Stockholm",
+        "open": "12.00",
+        "close": "19.00",
+        "phone": "07894578955",
+        "webadress": "www.saxmax.se"
 
     }
     ,{
         "id":4,
         "name": "Topp knopp",
         "price": "350-450",
-        "adress": "Rådmansgatan",
-        "open": "12.00"
+        "adress": "Rådmansgatan 47, 113 57 Stockholm",
+        "open": "12.00",
+        "close": "18.00",
+        "phone": "07234564455",
+        "webadress": "www.toppknopp.se"
 
     }
     ,{
         "id":5,
         "name": "KlippAnns Salong",
         "price": "150-250",
-        "adress": "Rådmansgatan",
-        "open": "12.00"
+        "adress": "Rådmansgatan 46, 113 57 Stockholm",
+        "open": "12.00",
+        "close": "16.00",
+        "phone": "072342355",
+        "webadress": "www.klippAnns.se"
 
     }
 
