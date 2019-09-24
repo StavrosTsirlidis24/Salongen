@@ -38,7 +38,7 @@ let salongPage= (props) =>{
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="far fa-star"></i>
-                                    <p>(32)</p>
+                                    <span>(32)</span>
                                 </Style.starCollection>
                         </Style.bottomHeader>    
 

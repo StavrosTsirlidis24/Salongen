@@ -5,14 +5,12 @@ import {Link} from 'react-router-dom';
 let salongListObject = (props) =>{
     let data = props.props;
 
-    const linkStyle ={
-
+    const linkStyle = {
         textDecoration:'none',
         color:'black'
     };
-    const spanStyleAdress ={
-
-        fontSize:'5vw',
+    const spanStyleAdress = {
+        fontSize:'4vw',
         color:'grey'
     };
     
@@ -37,7 +35,7 @@ let salongListObject = (props) =>{
                             <i class="far fa-star"></i>
                             <p>(32)</p>
                         </Style.starCollection>
-                        <span style={spanStyleAdress} >{data.adress.slice(0,-18)}</span>
+                        <p style={spanStyleAdress} >{data.adress.slice(0,-18)}</p>
                         
                     </Style.middleColumn>
 

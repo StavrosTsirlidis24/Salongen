@@ -7,6 +7,11 @@ width:100vw;
 background-color:white;
 display:flex;
 flex-direction:column;
+font-family: 'Roboto', sans-serif;
+@font-face{
+  font-family:'MyWebFont';
+  src: url(${Font});
+}
 `
 //*Head Section********************************************************
 export const header = Styled.div `
@@ -52,17 +57,20 @@ display:flex;
 flex-direction:column;
 color:white;  
 margin: 15px 10px 30px 15px;
+
 p{
+    font-family:'MyWebFont';
     font-size:8vw;
-    margin: 0px 0px 0px 15px;
+    margin: 0px 0px 10px 15px;
 }
+
 `
 export const starCollection= Styled.div `
 
 display:flex;
 color:white;
 flex-direction:row;  
-margin: 5px 10px 20px 15px;
+margin: 5px 10px 15px 15px;
 i{
     font-size:5vw;
     color:#cca300;
@@ -75,6 +83,10 @@ p{
     font-size:4vw;
     margin:0px 0px 0px 5px;
 }   
+span{
+    font-size:4vw;
+    margin: 2px 0px 0px 15px;
+}
 `
 
 //*Middle Section********************************************************

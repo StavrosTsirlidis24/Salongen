@@ -1,12 +1,20 @@
 import Styled from 'styled-components';
 import SelectArrow from '../../material/selectArrow.png';
+import Font from '../../font/FontBureau-MillerBannerLight.otf';
+
+
 export const container = Styled.div `
 height:100vh;
 width:100vw;
 background-color:white;
 display:flex;
 flex-direction:column;
-font-family: 'MyWebFont';
+font-family: 'Roboto', sans-serif;
+
+@font-face{
+  font-family:'MyWebFont';
+  src: url(${Font});
+}
 `
 
 
@@ -18,6 +26,7 @@ display:flex;
 flex-direction:column;
 position: sticky;
 top:0px;
+font-family: 'MyWebFont';
 `
 
 export const topHeader = Styled.div `

@@ -21,22 +21,23 @@ width:15vw;
 flex-direction:row;
 justify-content:center;
 background-color:white;
-margin:0px 5px 0px 5px;
-font-size:5vw;
-font-weight:bold;
+margin:2px 5px 0px 5px;
+font-size:4vw;
+
 `
 export const middleColumn = Styled.div `
 display:flex;
-width:55vw;
+width:53vw;
 margin:0px 15px 0px 5px;
 flex-direction:column;
 background-color:white;
 justify-content:space-between;
 p{
     margin:0px;
-  
+    
 }
 span{
+    font-family: 'MyWebFont';
     margin:0px 0px 10px 0px;
     font-size:6vw;
     color:black;
@@ -44,12 +45,12 @@ span{
 `
 export const rightColumn = Styled.div `
 display:flex;
-width:20vw;
+width:22vw;
 flex-direction:column;
 align-items:flex-end;
 margin:5px 5px 0px 5px;
 background-color:white;
-font-size:4vw;
+font-size:3.5vw;
 p{color:grey}
 `
 export const starCollection= Styled.div `
