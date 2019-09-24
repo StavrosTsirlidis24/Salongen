@@ -13,7 +13,6 @@ class salongList extends Component{
     let salonger = [...this.props.props.salongData];
     
     const dotsStyle ={
-
         fontSize: '6vw',
         paddingTop:'1.5vh'
     };

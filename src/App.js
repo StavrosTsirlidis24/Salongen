@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import {BrowserRouter as Router,Route} from 'react-router-dom';
+import {BrowserRouter as Router,Route} from 'react-router-dom'
+
 import SalongList from './components/salongList/salongList';
 import SalongPage from './components/salong/salongPage';
 import SalongData from './data/salongData.json';
