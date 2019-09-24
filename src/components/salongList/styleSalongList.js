@@ -11,12 +11,12 @@ display:flex;
 flex-direction:column;
 font-family: 'Roboto', sans-serif;
 
+
+`
 /* @font-face{
   font-family:'MyWebFont';
   src: url(${Font});
 } */
-`
-
 
 export const header = Styled.div `
 height:25vh;
