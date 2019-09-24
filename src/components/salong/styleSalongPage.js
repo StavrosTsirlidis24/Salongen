@@ -1,6 +1,6 @@
 import Styled from 'styled-components';
 import Fotohair from '../../material/alexander-krivitskiy-WSMM0s2F7iU-unsplash.jpg';
-import Font from '../../font/FontBureau-MillerBannerLight.otf';
+// import Font from '../../font/FontBureau-MillerBannerLight.otf';
 export const container = Styled.div `
 height:100vh;
 width:100vw;
@@ -8,10 +8,11 @@ background-color:white;
 display:flex;
 flex-direction:column;
 font-family: 'Roboto', sans-serif;
-@font-face{
+
+/* @font-face{
   font-family:'MyWebFont';
   src: url(${Font});
-}
+} */
 `
 //*Head Section********************************************************
 export const header = Styled.div `
@@ -59,7 +60,8 @@ color:white;
 margin: 15px 10px 30px 15px;
 
 p{
-    font-family:'MyWebFont';
+    /* font-family:'MyWebFont'; */
+    font-family: 'Playfair Display', serif;
     font-size:8vw;
     margin: 0px 0px 10px 15px;
 }

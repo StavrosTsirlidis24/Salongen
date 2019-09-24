@@ -37,7 +37,8 @@ p{
     
 }
 span{
-    font-family: 'MyWebFont';
+    /* font-family: 'MyWebFont'; */
+    font-family: 'Playfair Display', serif;
     margin:0px 0px 10px 0px;
     font-size:6vw;
     color:black;
