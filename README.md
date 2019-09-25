@@ -1,3 +1,5 @@
+The project is made only for mobile phones, its not responsive in other cases.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
